@@ -11,10 +11,3 @@ close.addEventListener('click', () => {
 
 const liEles = document.getElementsByClassName('li-link');
 const activeEle = document.querySelector('.active');
-// Array.from(liEles).forEach(element => {
-//     element.addEventListener('click',()=>{
-//         activeEle.classList.remove('active');
-//         element.classList.add('active');
-
-//     })
-// });
