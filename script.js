@@ -8,6 +8,3 @@ menu.addEventListener('click', () => {
 close.addEventListener('click', () => {
     nav.classList.remove('open-nav');
 });
-
-const liEles = document.getElementsByClassName('li-link');
-const activeEle = document.querySelector('.active');
