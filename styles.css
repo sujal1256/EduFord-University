@@ -458,6 +458,22 @@ main{
         }
     }
 }
+@media (max-width:500px){
+    .testimonials .cols {
+        margin: 10px;
+        width: calc(100% - 20px);
+        .testimonials-col {
+            
+            img{
+                height: 100px;
+                width: 100px;
+            }
+            p{
+                font-size: 0.7em;
+            }
+        }
+    }
+}
 .about-us{
     h2{
         text-align: center;
